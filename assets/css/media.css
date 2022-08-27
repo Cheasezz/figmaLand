@@ -1,0 +1,309 @@
+@media (max-width: 1200px) {
+  /* HEADER */
+  .header__social {
+    display: none;
+  }
+
+  /* MACBOOK */
+
+  .info {
+    padding: 0 25px;
+  }
+
+  .section--info {
+    padding: 80px 0;
+  }
+
+  .info__wrapper {
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .info__item_1 {
+    margin-bottom: 75px;
+  }
+
+  .info__item_1 h2 {
+    margin: auto;
+  }
+
+  /* NEWSLETTER */
+
+  .newsletter {
+    padding: 0 25px;
+    flex-direction: column;
+  }
+
+  .newsletter__item_1 {
+    margin: 0 0 120px;
+  }
+
+  .newsletter__header {
+    display: none;
+  }
+
+  .newsletter__header--mob {
+    display: block;
+  }
+
+  .newsletter__form {
+    text-align: center;
+  }
+
+  /* PARTNERS */
+
+  .partners__inner {
+    padding: 0 25px;
+  }
+
+  .partners__item {
+    padding: 10px 20px;
+  }
+
+  /* CONTACT US */
+
+  .contact-us {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us__item-1 {
+    order: 1;
+  }
+
+  .contact-us__item-2 {
+    margin-left: 0;
+  }
+
+  .item-2__row.map {
+    display: none;
+  }
+
+  .item-2__row:last-child {
+    width: unset;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section {
+    padding: 80px 0;
+  }
+
+  /* HEADER */
+
+  .nav {
+    margin-right: auto;
+  }
+
+  /* PARTNERS */
+
+  .partners__row {
+    display: none;
+  }
+
+  .partners__row:first-child {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .partners__item {
+    min-width: 273px;
+    width: fit-content;
+    margin-bottom: 10px;
+  }
+
+  .partners__item:last-child {
+    margin-bottom: 80px;
+  }
+
+  /* PRICING */
+
+  .cards__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cards__item {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 810px) {
+  /* HEADER */
+
+  .header {
+    padding: 10px 0;
+
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+
+  .header__inner {
+    justify-content: flex-end;
+    padding: 0;
+  }
+
+  .header.fixed .nav {
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+
+  .nav {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    text-align: center;
+  }
+
+  .nav__link {
+    display: block;
+    margin: 0 0 10px;
+    color: #fff;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  /* INTRO */
+
+  .intro__title {
+    font-size: 48px;
+  }
+
+  .intro__subtitle {
+    font-size: 23px;
+  }
+
+  /* FEATURES */
+
+  .play-btn {
+    width: 18%;
+  }
+
+  /* TESTIMONIALS */
+
+  .testimonials {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 650px) {
+  /* FEATURES */
+
+  .features__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features__item {
+    width: 100%;
+  }
+
+  .features__video {
+    padding: 0;
+  }
+
+  /* CONTACT US */
+
+  .contact-us {
+    padding: 0;
+  }
+
+  .item-2__row:first-child {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .contact-us__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .info__icon {
+    margin-right: 30px;
+  }
+
+  /* FOOTER */
+
+  .footer__inner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer__col {
+    margin-bottom: 40px;
+  }
+
+  .footer__contact:last-child {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .btn {
+    display: block;
+  }
+
+  /* INTRO */
+
+  .intro {
+    min-height: 500px;
+  }
+
+  .intro__title {
+    margin: 24px 15px 24px;
+
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  /* MACBOOK */
+
+  .info {
+    padding: 0;
+  }
+
+  /* NEWSLETTER */
+
+  .newsletter {
+    padding: 0;
+    align-items: unset;
+  }
+
+  .form {
+    display: block;
+    text-align: center;
+  }
+
+  .form__input {
+    margin: 0 0 10px;
+    width: 100%;
+  }
+
+  .btn--form {
+    width: 100%;
+  }
+
+  /* TESTIMONIALS */
+
+  .testimonials {
+    padding: 0;
+  }
+
+  /* CONTACT US */
+
+  .btn--send {
+    width: 100%;
+  }
+
+  .form--contact-us {
+    padding: 15px;
+  }
+}
